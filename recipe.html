@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<title></title>
+	<meta name="description" content="A collection of recipies, mostly for dinner.">
+	<meta name="author" content="Derek P. Collins">
+	
+	<link rel="stylesheet" href="assets/css/app.css?v=1.0">
+</head>
+
+<body>
+	<header id="site-header">
+		<h1>Recipes</h1>
+	</header>
+	
+	<main>
+		<a href="index.html" class="go-back"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg> <span>All recipes</span></a>
+		
+		<article>
+			<h1 id="recipe-title"></h1>
+			<p id="recipe-description"></p>
+			
+			<h2>Ingredients</h2>
+			<ul id="ingredients-list"></ul>
+			
+			<h2>Directions</h2>
+			<ol id="directions-list"></ol>
+		</article>
+	</main>
+	
+	<script src="assets/data/recipes.js"></script>
+	<script src="assets/js/recipe.js"></script>
+</body>
+</html>

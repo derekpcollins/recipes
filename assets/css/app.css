@@ -1,0 +1,11 @@
+.go-back {
+	display: flex;
+	justify-items: center;
+	line-height: 1;
+}
+
+.go-back svg {
+	height: 12px;
+	margin-right: 6px;
+	width: 12px;
+}
